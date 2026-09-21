@@ -6,6 +6,7 @@ I will keep this updated as long as I live.
 
 These should have the exact same performance as the regular AND and XOR gates.
 
+There are secret settings in `settings_master.jecs` to change the max pin count for the logic gates.
 
 # Dependencies
 - EccsGuiBuilder
