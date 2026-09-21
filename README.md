@@ -10,3 +10,4 @@ These should have the exact same performance as the regular AND and XOR gates.
 # Dependencies
 - EccsGuiBuilder
 - EccsLogicWorldAPI
+https://github.com/Ecconia/Ecconia-LogicWorld-Mods
