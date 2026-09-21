@@ -1,0 +1,41 @@
+NandGate:
+    column: "Logic"
+    logicCode: FoxFireFive.LogicGates.Server.NandGate
+    prefabGenerator: FoxFireFive.LogicGates.Client.NandGatePrefabGenerator
+    placingRulesGenerator: LogicWorld.ClientCode.DynamicGenerators.AndGatePlacingRulesGenerator
+
+NorGate:
+    column: "Logic"
+    logicCode: FoxFireFive.LogicGates.Server.NorGate
+    prefabGenerator: FoxFireFive.LogicGates.Client.NorGatePrefabGenerator
+    placingRulesGenerator: LogicWorld.ClientCode.DynamicGenerators.AndGatePlacingRulesGenerator
+
+OrGate:
+    column: "Logic"
+    logicCode: FoxFireFive.LogicGates.Server.OrGate
+    prefabGenerator: FoxFireFive.LogicGates.Client.OrGatePrefabGenerator
+    placingRulesGenerator: LogicWorld.ClientCode.DynamicGenerators.AndGatePlacingRulesGenerator
+
+XnorGate:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                scale: (2, 1, 1)
+                position: (0.5, 0, 0)
+                color: 80169F
+        inputs:
+            -
+                position: (0, 1, 0)
+            -
+                position: (1, 1, 0)
+        outputs:
+            -
+                position: (0.5, 0.5, 0.5)
+                rotation: (90, 0, 0)
+                startOn: true
+    logicCode: FoxFireFive.LogicGates.Server.XnorGate
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false

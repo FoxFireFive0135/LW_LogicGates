@@ -1,0 +1,6 @@
+FoxFireFive.LogicGates.NorGate: "NOR Gate"
+FoxFireFive.LogicGates.OrGate: "OR Gate"
+FoxFireFive.LogicGates.NandGate: "NAND Gate"
+FoxFireFive.LogicGates.XnorGate: "XNOR Gate"
+
+FoxFireFive.LogicGates.EditMenu.InputCount: "Input Count"
