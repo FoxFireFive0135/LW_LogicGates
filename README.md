@@ -1,4 +1,4 @@
-# LW_LogicGates
+# FoxFireFive's Logic Gates Mod
 Adds the rest of the logic gates to Logic World.
 
 This adds the NAND, NOR, OR, and XNOR gates to Logic World.
